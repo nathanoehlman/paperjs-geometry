@@ -1,0 +1,16 @@
+{
+	"name": "paper-geometry",
+	"description":  "Geometry components from PaperJS",
+	"version":  "0.1.0",
+	"contributors": [{
+		"name" : "Jürg Lehni",
+		"url" : "http://lehni.org"
+	}, {
+		"name" : "Jonathan Puckey",
+		"url" : "http://jonathanpuckey.com"
+	}],
+	"homepage": "http://paperjs.org",
+	"keywords": ["canvas", "graphic", "graphics", "vector", "paper.js"], 	
+	"repository": "git://github.com/paperjs/paper.js/",
+	"main": "./dist/paper.js"
+}

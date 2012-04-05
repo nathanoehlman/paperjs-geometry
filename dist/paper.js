@@ -13,7 +13,7 @@
  *
  * All rights reserved.
  *
- * Date: 
+ * Date: Wed Apr 4 23:08:45 2012 +1000
  *
  ***
  *
@@ -43,7 +43,7 @@
  * Distributed under the BSD license.
  */
 
-var paper = new function() {
+module.exports = new function() {
 
 var Base = new function() { 
 	var fix = !this.__proto__,

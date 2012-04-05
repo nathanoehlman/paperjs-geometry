@@ -43,7 +43,7 @@
  * Distributed under the BSD license.
  */
 
-var paper = new function() {
+module.exports = new function() {
 // Inline Bootstrap core (the Base class) inside the paper scope first:
 /*#*/ include('../lib/bootstrap.js');
 
