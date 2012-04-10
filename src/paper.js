@@ -71,6 +71,7 @@ module.exports = new function() {
 // Mark this object as enumerable, so all the injected classes can be enumerated
 // again in PaperScope#install().
 this.enumerable = true;
-return new (PaperScope.inject(this));
+//return new (PaperScope.inject(this));
+return this; // No scoping
 /*#*/ } // options.version != 'dev'
 };

@@ -13,7 +13,7 @@
  *
  * All rights reserved.
  *
- * Date: Wed Apr 4 23:08:45 2012 +1000
+ * Date: Thu Apr 5 20:59:15 2012 +1000
  *
  ***
  *
@@ -1580,5 +1580,6 @@ Base.each(this, function(val, key) {
 });
 
 this.enumerable = true;
-return new (PaperScope.inject(this));
+
+return this; 
 };
